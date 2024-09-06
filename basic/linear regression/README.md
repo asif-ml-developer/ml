@@ -1,5 +1,5 @@
 # Introduction
-Linear Regression is a supervised machine learning algorithm where the predicted output is continuous and has a constant slope. It’s used to predict values within a continuous range, (e.g. sales, price) rather than trying to classify them into categories (e.g. cat, dog). There are two main types:
+Linear Regression is a statistical method used to model and analyze the relationship between a dependent variable (target) and one or more independent variables (features). The goal is to find the best-fitting line through the data points.
 
 ###  Example in Python
 Here’s a simple example using Python and the scikit-learn library:
