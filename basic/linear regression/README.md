@@ -7,6 +7,8 @@ https://excalidraw.com/#json=-q1pWlBdOc_SF8opXNBt0,NW_bgUwVzgUNtfKyQaynww
 
 ###  Example in Python
 
+Here’s a simple example using Python and the scikit-learn library:
+
         import numpy as np
         import matplotlib.pyplot as plt
         from sklearn.linear_model import LinearRegression
@@ -34,5 +36,5 @@ https://excalidraw.com/#json=-q1pWlBdOc_SF8opXNBt0,NW_bgUwVzgUNtfKyQaynww
         
 ![image](https://github.com/user-attachments/assets/d63ae189-f713-4415-8b6e-f9a42d818525)
 
-Here’s a simple example using Python and the scikit-learn library:
+
 https://colab.research.google.com/drive/1wNZx19sUn6H_4uPoWXVoGaM3zLSehVTi#scrollTo=6tW219ht9rh5
