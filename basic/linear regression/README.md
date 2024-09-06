@@ -56,6 +56,60 @@ https://colab.research.google.com/drive/1wNZx19sUn6H_4uPoWXVoGaM3zLSehVTi#scroll
 
 ![image](https://github.com/user-attachments/assets/59fe4dbf-08d5-412e-8dfa-dbb277e53f23)
 
+
+## Simple Linear Regression full cycle of codes
+
+
+### Prediction Function:
+
+      def predict_sales(radio, weight, bias):
+          return weight * radio + bias
+          
+### Cost Function: Mean Squared Error (MSE): 
+
+    def cost_function(radio, sales, weight, bias):
+        companies = len(radio)
+        total_error = 0.0
+        for i in range(companies):
+            total_error += (sales[i] - (weight * radio[i] + bias)) ** 2
+        return total_error / companies
+        
+### Gradient Descent: Adjust weights and bias to minimize the MSE:
+
+        def update_weights(radio, sales, weight, bias, learning_rate):
+            weight_deriv = 0
+            bias_deriv = 0
+            companies = len(radio)
+        
+            for i in range(companies):
+                weight_deriv += -2 * radio[i] * (sales[i] - (weight * radio[i] + bias))
+                bias_deriv += -2 * (sales[i] - (weight * radio[i] + bias))
+        
+            weight -= (weight_deriv / companies) * learning_rate
+            bias -= (bias_deriv / companies) * learning_rate
+        
+            return weight, bias
+
+### Training: Iteratively update weights and bias to minimize cost.
+
+          def train(radio, sales, weight, bias, learning_rate, iters):
+              cost_history = []
+          
+              for i in range(iters):
+                  weight, bias = update_weights(radio, sales, weight, bias, learning_rate)
+                  cost = cost_function(radio, sales, weight, bias)
+                  cost_history.append(cost)
+          
+                  if i % 10 == 0:
+                      print(f"iter={i}    weight={weight:.2f}    bias={bias:.4f}    cost={cost:.2f}")
+          
+              return weight, bias, cost_history
+
+
+
+
+
+
 ![image](https://github.com/user-attachments/assets/b7d26c13-7d36-4bd0-8f6b-aed185847568)
 
 
