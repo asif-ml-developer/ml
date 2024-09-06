@@ -4,6 +4,10 @@ Linear Regression is a statistical method used to model and analyze the relation
 ![image](https://github.com/user-attachments/assets/4a739357-e520-4d15-90e9-1b0b45cb6cda)
 https://excalidraw.com/#json=-q1pWlBdOc_SF8opXNBt0,NW_bgUwVzgUNtfKyQaynww
 
+![image](https://github.com/user-attachments/assets/0262ea95-9173-4209-a78c-52b81487af04)
+https://ml-cheatsheet.readthedocs.io/en/latest/linear_regression.html
+
+
 
 ###  Example in Python
 
