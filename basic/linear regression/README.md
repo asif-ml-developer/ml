@@ -59,7 +59,8 @@ https://colab.research.google.com/drive/1wNZx19sUn6H_4uPoWXVoGaM3zLSehVTi#scroll
 
 ## Simple Linear Regression full cycle of codes (prediction, Cost, Gradient, Training functions)
 
-![image](https://github.com/user-attachments/assets/42db913a-e37d-431b-bdeb-023e92e8ee1d)
+![image](https://github.com/user-attachments/assets/9cb4c673-fd48-4c46-8148-4b548c9bb29d)
+
 
 ### Prediction Function:
 
