@@ -9,32 +9,34 @@ https://excalidraw.com/#json=-q1pWlBdOc_SF8opXNBt0,NW_bgUwVzgUNtfKyQaynww
 
 Here’s a simple example using Python and the scikit-learn library:
 
-        import numpy as np
-        import matplotlib.pyplot as plt
-        from sklearn.linear_model import LinearRegression
+                import numpy as np
+                import matplotlib.pyplot as plt
+                from sklearn.linear_model import LinearRegression
+                
+                # Sample data
+                x = np.array([[1], [2], [3], [4], [5]])  # Feature
+                y = np.array([1, 2, 2.5, 4, 5])            # Target
+                
+                # Create and fit the model
+                model = LinearRegression()
+                model.fit(x, y)
+                
+                # Predict
+                x_pred = np.array([[6]])
+                y_pred = model.predict(x_pred)
+                
+                # Plot
+                plt.scatter(x, y, color='blue', label='Data Points')
+                plt.plot(x, model.predict(x), color='red', label='Fitted Line')
+                plt.scatter(x_pred, y_pred, color='green', label='Prediction for x=6')
+                plt.xlabel('x (independent variable)')
+                plt.ylabel('y (dependent variable)')
+                plt.legend()
+                plt.show()
+
         
-        # Sample data
-        x = np.array([[1], [2], [3], [4], [5]])  # Feature
-        y = np.array([1, 2, 2.5, 4, 5])            # Target
-        
-        # Create and fit the model
-        model = LinearRegression()
-        model.fit(x, y)
-        
-        # Predict
-        x_pred = np.array([[6]])
-        y_pred = model.predict(x_pred)
-        
-        # Plot
-        plt.scatter(x, y, color='blue', label='Data Points')
-        plt.plot(x, model.predict(x), color='red', label='Fitted Line')
-        plt.scatter(x_pred, y_pred, color='green', label='Prediction for x=6')
-        plt.xlabel('x side')
-        plt.ylabel('y side')
-        plt.legend()
-        plt.show()
-        
-![image](https://github.com/user-attachments/assets/d63ae189-f713-4415-8b6e-f9a42d818525)
+![image](https://github.com/user-attachments/assets/adb3841f-4eba-48ba-95ce-215a9d52530e)
+
 
 
 https://colab.research.google.com/drive/1wNZx19sUn6H_4uPoWXVoGaM3zLSehVTi#scrollTo=6tW219ht9rh5
