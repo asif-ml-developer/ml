@@ -44,3 +44,14 @@ Here’s a simple example using Python and the scikit-learn library:
 
 
 https://colab.research.google.com/drive/1wNZx19sUn6H_4uPoWXVoGaM3zLSehVTi#scrollTo=6tW219ht9rh5
+
+
+## Formula
+
+![image](https://github.com/user-attachments/assets/f3f78179-f8a0-4a65-9bb3-332c086fa05d)
+
+![image](https://github.com/user-attachments/assets/c27db33d-3a44-44af-ba48-88f682a108b4)
+
+![image](https://github.com/user-attachments/assets/7b7c5a13-89c8-4d02-a4ed-81719d6e8ec5)
+
+
