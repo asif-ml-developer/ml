@@ -63,6 +63,8 @@ https://colab.research.google.com/drive/1wNZx19sUn6H_4uPoWXVoGaM3zLSehVTi#scroll
 
 
 ### Prediction Function:
+Calculates the predicted sales using the formula Sales = Weight × Radio + Bias
+and returns the result.
 
       def predict_sales(radio, weight, bias):
           return weight * radio + bias
