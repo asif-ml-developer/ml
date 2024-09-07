@@ -109,10 +109,11 @@ and returns the result.
           
               return weight, bias, cost_history
 
+### Simple Regression Theory with examples 
+https://colab.research.google.com/drive/1wNZx19sUn6H_4uPoWXVoGaM3zLSehVTi#scrollTo=Kz2w0RAfmMKb
 
-
-
-
+### Simple Regression Codes with out put
+https://colab.research.google.com/drive/1_bsDyyUzkl_qBe4Pf9abBIFzP8MsBbWt#scrollTo=eJDiEr1QjrcR
 
 ![image](https://github.com/user-attachments/assets/b7d26c13-7d36-4bd0-8f6b-aed185847568)
 
